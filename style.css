@@ -1,0 +1,78 @@
+body {
+    background: url("/Picsart_24-06-11_21-51-44-732.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input,button{
+  display: block;
+}
+form{
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 3px 0 black,
+              1px 1px 3px 0 white;
+}
+h3{
+  text-align: center;
+  color: white;
+}
+.inl{
+  width: 200px;
+  height: 35px;
+  border:1px solid white;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding-left: 20px;
+  font-size: 15px;
+}
+input::placeholder{
+  color: #FFFFFF;
+ }
+.check{
+  width: 17px;
+  display: inline;
+  padding-left: -20px;
+  margin-top: 5px;
+}
+.remamber{
+  font-size: 13px;
+  color: white;
+}
+.forget{
+  font-size: 10px;
+  position: absolute;
+  color: #FF5252;
+  margin-top: 2px;
+  margin-left: 35px;
+  color: white;
+}
+button{
+  width: 225px;
+  height: 36px;
+  border: none;
+  margin-top: 10px;
+  background: #F1F1F1;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.lastt{
+  margin-top: 10px;
+}
+.last{
+  color: white;
+  
+}
+.sign{
+  color: white;
+  margin-left: 5px;
+}
